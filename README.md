@@ -21,7 +21,7 @@ public final class Looper {
 	static final ThreadLocal<Looper> sThreadLocal = new ThreadLocal<Looper>();
 	
 	//一个Loople对象，对应一个消息队列
-	MessageQueue mQueue;
+	MessageQueue mQueue; 
 	
 	private Looper(){
 		mQueue = new MessageQueue();
